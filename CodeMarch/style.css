@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  background-color: #373534;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+.image{
+  width: 50%;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+.image img{
+  width: 50px;
+  border-radius: 50px;
+}
+.logo-text{
+  color: #fff;
+  position: absolute;
+  top: 4%;
+  left: 11%;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+.nav{
+  width: 50%;
+  text-align: right;
+}
+.nav ul li{
+  color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 70px;
+}
+/* main section */
+.container-2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 70px 0px 70px 90px;
+  background-color: #fdf2e9;
+}
+.main-section{
+  width: 55%;
+  padding-right: 130px;
+}
+.main-image{
+  width: 45%;
+}
+.main-image img{
+  width: 400px;
+}
+.main-section h1{
+  font-size: 42px;
+  line-height: 48px;
+}
+.main-section p{
+  padding-top: 20px;
+  line-height: 26px;
+}
+button{
+  background-color: #e67e22;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.students{
+  display: flex;
+}
+.student-image{
+  margin-top: 50px;
+}
+.student-image img{
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  margin-left: -10px;
+}
+.enroll{
+  position: absolute;
+  left: 25%;
+  top: 79.5%;
+  transform: translateX(-10%);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+/* services */
+.services{
+  background-color: #211f24;
+  padding: 100px 80px;
+  text-align: center;
+  color: #fff;
+}
+.services h2{
+  margin-bottom: 30px;
+}
+.para{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px 220px;
+}
+/* line */
+.line-container {
+  position: relative;
+  width: 100px;
+  height: 1px;
+  margin: 20px auto;
+ 
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #f70037;
+}
+
+.line-overlay {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background-color: red;
+}
+.service-container{
+  width: 100%;
+  display: flex;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.service-section{
+  background-color: #24252a;
+  text-align: left;
+  padding: 40px;
+  margin-top: 20px;
+}
+.service-container:last-child{
+  margin-top: 0px;
+}
+.section-2{
+  margin-top: 30px;
+}
+.service-para{
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 28px;
+  color: rgb(176, 168, 168);
+}
+.service-section i{
+  font-size: 24px;
+  color: #f70037;
+  margin-bottom: 15px;
+}
+.service-section h4{
+  margin-bottom: 20px;
+}
+#read-more, #read, #read-text{
+  font-size: 14px;
+  margin-right: 10px;
+}
+.read-more-text{
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+hr{
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  width: 100%;
+}
+/* testimonials */
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials{
+  width: 1090px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.testimonials h1{
+  margin-bottom: 10px;
+}
+.testimonials p{
+  padding-top: 10px;
+}
+.testimonial-col{
+  flex-basis: 44%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #ededed;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.testimonial-col img{
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+}
+.testimonial-col p{
+  padding: 0;
+  font-size: 14px;
+}
+.testimonial-col h3{
+  margin-top: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+.testimonial-col .fa{
+  color: #f70037;
+  margin-top: 5px;
+}
+/* contact container */
+.contact-container{
+  padding: 100px 80px;
+  background-color: #fdf2e9;
+}
+.contact{
+  display: flex;
+  column-gap: 20px;
+  width: 1090px;
+  background-color: #fff;
+  margin: 0px auto;
+}
+.contact-field{
+  width: 70%;
+  padding: 60px;
+}
+.contact-field input, textarea{
+  padding: 10px;
+  margin-top: 20px;
+  border: 0px;
+  border-bottom: 1px solid #333;
+}
+.contact-field input, textarea, .contact-btn{
+  width: 80%;
+}
+.contact-field h1{
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.contact-btn{
+  background-image: linear-gradient(to right,#2f20dd, #7d13bd);
+  padding: 5px;
+  border-radius: 200px;
+}
+.contact-info{
+  background-color: #2d2d2d;
+  color: #fff;
+  width: 30%;
+  padding: 70px 50px;
+  height: 350px;
+  margin-top: 60px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.contact-info h5{
+  padding-bottom: 20px;
+}
+.contact-info span{
+  font-size: 14px;
+  line-height: 40px;
+}
+.contact-info i{
+  padding-right: 10px;
+  color: #f70037;
+}
+#icon1, #icon2, #icon3{
+  padding-right: 30px;
+}
+/* main footer */
+.footer-container{
+  background-color: #151414;
+}
+.main-footer{
+  padding: 70px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.footer-image{
+  margin-top: -10px;
+}
+.image img{
+  width: 50px;
+  border-radius: 50px;
+}
+.logo-text2{
+  color: #fff;
+  position: absolute;
+  top: 526%;
+  left: 11%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.icons i{
+  margin-top: 20px;
+  color: #f70037;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.footer-text{
+  color: rgb(176, 168, 168);
+}
+.footer-text p{
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-text h2, h4{
+  color: #fff;
+}
+.footer-text input{
+  background-color: #2e2e2e;
+  padding: 12px;
+  margin: 20px 0px;
+  border: 2px solid #2e2e2e;
+}
+.footer-text i{
+  background-color: #f70037;
+  color: #fff;
+  padding: 12.5px 12px 15.5px 12px;
+  border: 2px solid #f70037;
+  margin-left: -4px;
+}
+/* footer */
+.footer{
+  background-color: #373534;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
